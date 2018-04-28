@@ -1,0 +1,36 @@
+{
+  "name": "tanveersingh-website",
+  "version": "1.0.0",
+  "description": "A single page website of Tanveer Singh (Front end developer)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "UI/UX developer",
+    "Front end developer",
+    "Hybrid application developer",
+    "Web Designer"
+  ],
+  "author": "Tanveer Singh Taneja",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "browser-sync": "^2.23.7",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "run-sequence": "^2.2.1"
+  }
+}
